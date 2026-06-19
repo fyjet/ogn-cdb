@@ -1,0 +1,2 @@
+requests==2.31.0
+pure-cdb==4.0.0
