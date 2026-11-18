@@ -1,6 +1,9 @@
 [SoftRF](https://github.com/lyusupov/SoftRF) aircrafts file, generated twice a day from Openglider network registred aircrafts database, can usually be downloaded from http://soaringweather.no-ip.info/ADB/data/ogn.cdb . You can generate your own with ogn-cdb.py python script, without waiting for extract from previous site.
 
-# Installation
+Daily built [ogn.cdb](https://github.com/fyjet/ogn-cdb/releases/download/latest/ogn.cdb) is available in [Release pages](https://github.com/fyjet/ogn-cdb/releases) (Thanks to @yasiupl for git-hub action)
+
+# Run your own
+## Installation
 In your home directory, clone this repository and change to ogn-cdb directory
 ```shell
 $ git clone https://github.com/fyjet/ogn-cdb.git
@@ -13,7 +16,7 @@ $ python -m venv .
 $ ./bin/pip install pure-cdb requests
 ```
 
-# Run utility
+## Run utility
 ```shell
 $ ./bin/python3 ogn_cdb.py
 ```
